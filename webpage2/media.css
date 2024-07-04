@@ -1,0 +1,339 @@
+/* media query */
+/* 980px breakpoint */
+@media(max-width:980px){
+    header .subheader nav{
+        width: 50%;
+        z-index: 2;
+    }
+    header .slogan{
+        /* border: 1px solid black; */
+        left: 200px;
+        width: 60%;
+    }
+    header .slogan h1{
+        font-size: 55px;
+    }
+    header .slogan button{
+        margin-left: 150px;
+    }
+    .section2 .child p{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .section2 .child a{
+        padding-left: 100px;
+    }
+    .section3 p{
+        width: 80%;
+        font-size: 25px;
+        margin-left: 10%;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    .text p{
+        width: 100%;
+    }
+    .text button{
+        margin-top: 20px;
+    }
+    .counterup .parentcounter .childcounter span{
+        margin-left: 30px;
+    } 
+    .other{
+        height: auto;
+    }
+    .other .otherchild{
+        height: auto;
+        margin-top: 10px;
+    }
+    .other .otherchild i{
+        margin-left: 120px;
+    }
+}
+
+
+/* 720px breakpoint */
+@media(max-width:720px){
+    header .subheader nav{
+        width: 50%;
+        z-index: 2;
+    }
+    header .subheader i{
+        position: none;
+    }
+    header .slogan{
+        width: 70%;
+        left: 80px;
+        /* border: 1px solid black; */
+    }
+    header .slogan h1{
+        font-size: 40px;
+    }
+    header .slogan button{
+        margin-left: 120px;
+    }
+    .section2 .child{
+        width: 50%;
+        height: 280px;
+        /* border: 1px solid black; */
+    }
+    .section2 .child h2{
+        font-size: 20px;
+        margin-top: 0px
+    }
+    .section2 .child h3{
+        font-size: 20px;
+    }
+    .section2 #child1{
+        margin-left: 0px;
+  
+    }
+    .section2 .child a{
+        line-height: 50px;
+        padding-left: 130px;
+    }
+    .section3 h1{
+        margin-top: 10px;
+        text-align: left;
+    }
+    .section3 p{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .section3 .img{
+        margin-top: 50px;
+        height: 400px;
+    }
+    .parent{
+        flex-wrap: wrap;
+    }
+    .img{
+        width: 100%;
+        height: 300px;
+    }
+    .text{
+        /* border: 1px solid black; */
+        width: 100%;
+    }
+    .text h1{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .text p{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .text button{
+        margin-top: 15px;
+        padding: 2px;
+
+    }
+    .counterup{
+        height: auto;
+    }
+    .counterup .parentcounter{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .counterup .parentcounter .childcounter{
+        /* flex-wrap: wrap; */
+        width: 48%;
+        height: 150px;
+        border: 1px solid white;
+    }
+    .counterup .parentcounter .childcounter span{
+        margin-left: 100px;
+    }
+    .counterup .parentcounter .childcounter #people{
+            margin-left: 50px;
+    }
+    .other {
+        height: auto;
+    }
+    .other .otherchild{
+        width: 48%;
+        margin-top: 10px;
+        height: auto;
+    }
+    .other .otherchild i{
+        margin-left: 150px;
+    }
+    .reservation .form{
+        flex-direction: column;
+        width: 100%;
+     }
+     .reservation .form input,button{
+        width: 70%;
+     }
+     .accordian{
+        right: 0px;
+        width: 100%;
+     }
+     .accordian .para1{
+        width: 80%;
+        margin-left: 10%;
+     }
+     .accordian .para2{
+        width: 80%;
+        margin-left: 10%;
+     }
+     .accordian .para3{
+        width: 90%;
+        margin-left: 5%;
+     }
+}
+
+
+
+/* 480px breakpoint */
+@media(max-width:480px){
+    header{
+        background-size: cover;
+    }
+    header .subheader .logo a{
+        padding: 1px;
+    }
+    header .subheader nav{
+        width: 50%;
+        z-index: 2;
+    }
+    header .subheader i{
+        position: none;
+    }
+    header .slogan{
+        left: 0px;
+        /* border: 1px solid black; */
+        width: 90%;
+    }
+    header .slogan h1{
+        font-size: 40px;
+    }
+    header .slogan button{
+        margin-left: 100px;
+        margin-bottom: 40px;
+    }
+    .section2 .child{
+        width: 100%;
+    }
+    .section2 .child a{
+        padding-left: 180px;
+    }
+    .section3 h1{
+        text-align: right;
+    }
+    .section3 p{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .section3 .img{
+        margin-top: 100px;
+        height: 400px;
+    }
+    .parent{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        }
+    .img{
+        width: 100%;
+        height: 300px;
+    }
+    .text{
+        /* border: 1px solid black; */
+        width: 100%;
+    }
+    .text h1{
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    .text p{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .text button{
+        margin-top: 5px;
+        padding: 2px;
+
+    }
+    .counterup{
+        height: auto;
+    }
+    .counterup .parentcounter{
+        flex-direction: column;
+        height: auto;
+    }
+    .counterup .parentcounter .childcounter{
+        /* flex-wrap: wrap; */
+        width: 100%;
+        height: 150px;
+    }
+    .counterup .parentcounter .childcounter span{
+        margin-left: 100px;
+    }
+    .counterup .parentcounter .childcounter #people{
+            margin-left: 50px;
+     }
+     .other .otherchild{
+        width: 100%;
+     }
+     .other .otherchild i{
+        margin-left: 220px;
+     }
+     .reservation .form{
+        flex-direction: column;
+        width: 100%;
+     }
+     .reservation .form input,button{
+        width: 100%;
+     }
+     .accordian{
+        right: 0px;
+        width: 100%;
+        margin: 0;
+     }
+     .accordian .para1{
+        width: 80%;
+        margin-left: 10%;
+     }
+     .accordian .para2{
+        width: 80%;
+        margin-left: 10%;
+     }
+     .accordian .para3{
+        width: 90%;
+        margin-left: 5%;
+     }
+     footer{
+        height: auto;
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: black;
+    
+    }
+    footer .f2{
+        height: auto;
+        width: 70%;
+        /* border: 1px solid white; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer .f2 .a{
+        height: 300px;
+        width: 70%;
+        /* border: 1px solid white; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    footer .f2 .b{
+        height: 300px;
+        width: 70%;
+        /* border: 1px solid white; */
+        display: flex;
+        flex-direction: column;
+    }
+}
